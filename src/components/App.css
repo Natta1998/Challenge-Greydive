@@ -1,0 +1,107 @@
+.principal{
+    margin-bottom: 0px;
+    background-image: linear-gradient(black, rgba(25, 25, 25));
+}
+.header{
+    color: aliceblue;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+.cliente{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+.test_tipo{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.video{
+    margin-top: 50px;
+    margin-left: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: stretch;
+    grid-template-rows: minmax(0px, 1fr);
+    display: grid;
+}
+.transcripcion_title{
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+}
+
+.transcripcion{
+    
+    overflow: scroll;
+    max-height: 300px;
+    max-width: 600px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 400;  
+}
+.name{
+    margin-left: 200px;
+    color: #fff;
+}
+.tareas{margin-left: 200px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.tarea_tiempo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(218, 70, 70);
+    margin-left: 200px;
+    margin-bottom: 0px;
+    display: block;
+    overflow: visible;
+    max-height: 300px;
+    max-width: 500px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+}
+.tarea{
+    display: block;
+    overflow: visible;
+    max-height: 300px;
+    max-width: 500px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 200px;
+    padding: 20px 20px 0;
+    border-style: solid none none;
+    border-width: 1px 1px 1px 0;
+    border-color: #fff #000 #000 #2e2e2e;
+    border-radius: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+}
